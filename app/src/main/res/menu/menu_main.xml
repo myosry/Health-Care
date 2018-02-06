@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mostafa.aman.MainActivity">
+
+    <item
+    android:visible="true"
+    android:orderInCategory="1"
+    android:title="عن النقابه"
+    android:id="@+id/menu_item_info"
+    android:showAsAction="always"
+    android:icon="@drawable/info"
+
+    />
+    <item
+    android:visible="true"
+    android:orderInCategory="2"
+    android:title="خروج"
+    android:id="@+id/menu_item_exit"
+    android:showAsAction="always"
+
+    />
+
+
+</menu>

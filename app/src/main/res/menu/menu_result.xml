@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.mostafa.aman.Doctors">
+
+    <item
+        android:visible="true"
+        android:orderInCategory="1"
+        android:title="عن النقابه"
+        android:id="@+id/menu_item_info"
+        android:showAsAction="always"
+        android:icon="@drawable/info"
+        />
+
+    <!--<item-->
+    <!--android:orderInCategory="2"-->
+    <!--android:title="Share"-->
+    <!--android:id="@+id/menu_item_share"-->
+    <!--android:showAsAction="always"-->
+    <!--android:actionProviderClass= "android.widget.ShareActionProvider" />-->
+</menu>

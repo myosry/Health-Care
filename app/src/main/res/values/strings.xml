@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">مشروع الرعاية الصحية</string>
+    <string-array name="government">
+        <item>اختر محافظتك</item>
+        <item>    القاهره   </item>
+        <item>    أسوان   </item>
+        <item>    أسيوط   </item>
+        <item>    الاسكندرية   </item>
+        <item>    الإسماعيلية   </item>
+        <item>    البحيرة   </item>
+        <item>    الدقهلية   </item>
+        <item>    السويس   </item>
+        <item>    الشرقية   </item>
+        <item>    العريش   </item>
+        <item>    الغربية   </item>
+        <item>    الفيوم   </item>
+        <item>    القليوبية   </item>
+        <item>    المنوفية   </item>
+        <item>    المنيا   </item>
+        <item>    بني سويف   </item>
+        <item>    بورسعيد   </item>
+        <item>    دمياط   </item>
+        <item>    سوهاج   </item>
+        <item>    قنا   </item>
+        <item>    كفر الشيخ   </item>
+        <item>    مرسى مطروح   </item>
+    </string-array>
+
+
+    <string-array name="specially">
+        <item>اختر اسم التخصص</item>
+        <item>العلاج الطبيعى</item>
+        <item>الأطفال</item>
+        <item>الأسنان</item>
+        <item>الاشعة</item>
+        <item>التحاليل</item>
+        <item>العيون</item>
+        <item>انف واذن و حنجرة</item>
+        <item>الباطنة العامة</item>
+        <item>الباطنة والحميات</item>
+        <item>الباطنة والغدد الصماء والسكر</item>
+        <item>الباطنة والكلي</item>
+        <item>الباطنة والجهاز الهضمي والكبد والمناظير</item>
+        <item>الجراحة العامة</item>
+        <item>الباطنة وأمراض دم</item>
+        <item>جراحةالمخ والاعصاب</item>
+        <item>جراحةالاوعيةالدموية</item>
+        <item>جراحة الاورام</item>
+        <item>جراحة قلب وصدر</item>
+        <item>جراحة الاطفال</item>
+        <item>جراحة العظام</item>
+        <item>النساء و التوليد</item>
+        <item>جلدية و تناسلية</item>
+        <item>القلب والاوعية الدموية</item>
+        <item>سمعيات و اتزان</item>
+        <item>التخاطب</item>
+        <item>الروماتيزم والطب الطبيعي</item>
+        <item>علاج الاورام والطب النووي</item>
+        <item>الصدرية</item>
+        <item>المسالك البولية</item>
+        <item>النفسية و العصبية</item>
+        <item>التحاليل الباثولوجي</item>
+        <item>علاج الآلام</item>
+
+
+    </string-array>
+    <string name="title_activity_result">الأطباء</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">عن النقابة</string>
+    <string name="about_content_title">نقابة المهندسين بالجيزة</string>
+    <string name="about_content">دليل الرعاية الصحية عام     2016 </string>
+    <string name="about_developer">مهندس : مصطفى يسري</string>
+    <string name="about_developer_email">eng.mustafa.yosri@gmail.com</string>
+    <string name="about_author"> مهندس : وائل صبري </string>
+    <string name="about_author_email">wael@waelsabry.net</string>
+    <string name="about_tilte_developer">هذا البرنامج عمل تطوعي لنقابة المهندسين قام به كلا من :</string>
+</resources>

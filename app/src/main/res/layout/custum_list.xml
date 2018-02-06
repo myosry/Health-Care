@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/e_bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#c62828"
+            android:textSize="21sp"
+            android:text="الاسم"
+            android:id="@+id/doctor_name"
+            android:layout_gravity="right"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            >
+            <!--android:background="#ffab40"-->
+
+            <Button
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="25dp"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:textColor="#fafafa"
+                android:background="@drawable/callprimary"
+                android:text="01236547891"
+                android:id="@+id/doctor_phone" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="#424242"
+                android:textSize="17sp"
+                android:layout_gravity="right"
+                android:text="الدرجة العلميه"
+                android:id="@+id/doctor_spcialist" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="7dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:text="العنوان"
+            android:id="@+id/doctor_address" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/doc_img"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:src="@drawable/doctor1"
+            android:layout_gravity="center"
+            android:layout_weight="0.06" />
+
+    </LinearLayout>
+
+</LinearLayout>
