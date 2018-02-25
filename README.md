@@ -1,5 +1,5 @@
 # Project Overview
-This project helps you to find a doctor in your near area in Egypt.
+This project helps Users to find a doctor in Their near area in Egypt.
 
 # License
 
